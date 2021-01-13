@@ -49,14 +49,16 @@
                             </div>
                         </div>
                         <form class="form" action="https://echo.htmlacademy.ru" method="POST">
-                            <h1>Получить спецификацию</h1>
+                            <h1 class="form-title">Получить<br> спецификацию</h1>
                             <input class="form-input" type="text" name="user_name" placeholder="Ваше имя">
                             <input class="form-input" type="tel" name="user_tel" placeholder="Номер телефона">
                             <input class="form-input" type="email" name="user_email" placeholder="Email">
-                            <label class="form-input" for="checkbox-eula">
-                                <input type="checkbox" id="checkbox-eula">
-                                <p class="form-input-p">С условиями обработки данных ознакомлен и согласен</p>
-                            </label>
+                            <input type="checkbox" id="checkbox-eula">
+                            <div class="checkbox-div">
+                                <label class="form-input" for="checkbox-eula">
+                                    <p class="form-input-p">С условиями обработки данных ознакомлен и согласен</p>
+                                </label>
+                            </div>
                             <button class="form-button" type="submit">Отправить заявку</button>
                         </form>
                     </div>
