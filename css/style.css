@@ -13,8 +13,8 @@ header{
 .first-screen{
     background-image: url(/img/dron-bg.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-size: cover;
+    height: 740px;
+    background-position: center;
 }
 .nav{
     padding-top: 27px;
