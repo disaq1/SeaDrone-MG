@@ -23,6 +23,9 @@ header{
     display: flex;
     justify-content: space-between;
 }
+a{
+    text-decoration: none;
+}
 .list{
     list-style-type: none;
     font-weight: 400;
@@ -63,18 +66,21 @@ header{
 }
 .title-text1{
     font-size: 25px;
+    padding-bottom: 8px;
 }
 .title-text2{
     font-size: 30px;
+    padding-bottom: 8px;
 }
 .title-text3{
     font-size: 25px;
+    padding-bottom: 8px;
 }
 .title-text4{
-    font-size: 45px;
+    font-size: 36px;
 }
 .title-img{
-    padding-top: 60px;
+    padding-top: 45px;
 }
 .form{
     background-image: url(/img/form-bg.svg);
