@@ -84,22 +84,37 @@ a{
 .title-img{
     padding-top: 16px;
 }
+.btn-look{
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #FF6B00;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 7px;
+
+    margin-right: 25px;
+}
 .form{
     background-image: url(/img/form-bg.svg);
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px 50px 130px 50px;
 }
 .form-title{
     font-size: 30px;
     text-align: center;
     line-height: 25px;
+
+    color: black;
+    font-weight: 400;
 }
 .form-input{
     width: 300px;
     height: 45px;
     margin: 10px;
+
+    margin-left: 25px;
 }
 .form-input-p{
     font-weight: 300;
@@ -113,16 +128,21 @@ a{
     width: 300px;
     height: 45px;
     font-size: 20px;
+    border-radius: 7px;
+
+    margin-left:25px;
 }
 .icon-btn{
     padding-top: 5px;
     width: 18px;
     padding-right: 10px;
-    
 }
 
 .p-eula{
     color: #404040;
+
+    max-width: 300px;
+    padding-left: 25px;
 }
 .section_1{
     background-color: #990000;
