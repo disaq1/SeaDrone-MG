@@ -144,6 +144,38 @@ a{
     max-width: 300px;
     padding-left: 25px;
 }
-.section_1{
-    background-color: #990000;
+
+
+.description{
+    font-size: 19px;
+    color: black;
+    max-width: 1080px;
+    padding-left: 180px;
+}
+
+
+.description__title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+
+.blue__color{
+    color: #0FA8F4;
+    font-weight: 700;
+}
+
+
+.advantages{
+    
+}
+
+
+.advantages__title{
+    color: black;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    padding: 50px;
 }
